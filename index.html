@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần Đầu -->
+    <head>
+        <title> Cao Huỳnh Anh Khoa :)) </title>
+        <meta charset = "utf-8"> 
+        <link rel="stylesheet" href="main.css">
+        <style>
+           .box{
+               background: rgb(16, 216, 189);
+               width: calc( 80% + 20%);
+               height: 500px;
+           }
+           .box::after{
+               content: attr(data-title);
+               font-size: 100px;
+           }
+           a:active{
+               color: rgb(9, 250, 21)
+           }
+           h1:hover{
+               color: rgb(212, 29, 151);
+           }
+           
+        </style>
+        <!-- <style>
+            /* Kieu Internal cua CSS: la dung cap the style trong chinh file HTML va viet CSS trong style do duoc goi la Internal */
+            h1 {
+                color:red;
+                font-size: 50px;
+            }
+            a {
+                color: blue;
+            }
+        </style> -->
+    </head>
+    <!-- Phần Thân -->
+    <!-- h1 - h6 tiêu đề độ lớn giảm dần có in đậm -->
+    <!-- p chữ bình thường -->
+    <!-- <img src="" alt=""> -->
+    <!-- <a href=""></a>    đưa đên trang web theo link dán vào -->
+    <!-- div là 1 khối dùng để tách ra từng khoảng -->
+    <!-- button tạo điểm để nhấn -->
+    <!-- input chọn trắc nghiệm cần tạo name để nó chỉ chọn được 1 đáp án -->
+    <body>
+        <div class="box" data-title="Hoc Lap trinh"> </div>
+        <h1 style="font-size: 250px; background-color: blue;" >Con Bống Long Xuyên 123</h1>
+        <a href="https://www.facebook.com/luubax.hoangson/" style="color: blue; font-size: 150px">Facebook của con Bống Long Xuyên</a>
+        <p></p>
+        <button style="font-size: 100px; color: brown;">Đăng Ký để trở thành con bống Long Xuyên</button>
+        <!-- Inline dung attribute style trong the mo cua the html va viet thuoc tinh CSS vao -->
+        <input name="a" type="radio">
+        <input name="a" type="radio">
+        <input name="a" type="radio">
+        <ul style="font-size: 50px ;">
+            <li>Cao</li>
+            <li>Huynh</li>
+            <li>Anh</li>
+            <li>Khoa</li>
+            
+        </ul>
+        <ol style="font-size: 50px ;">
+            <li>oke</li>
+            <li>luon</li>
+        </ol>
+        <table>
+            <thead>
+                <th class="text" style="font-size: 50px;">Họ Và Tên</th>
+                <th class="text" style="font-size: 50px;">Tuổi</th>
+                <th class="text" style="font-size: 50px;">Nghề Nghiệp</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="context123">Nguyễn Hoàng Sơn</td>
+                    <td class="context123">___18 ___</td>
+                    <td class="context123">Làm Đĩ</td>
+                </tr> 
+            </tbody>
+
+        </table>
+        <p></p>
+        <!-- <h1 class="one"> một</h1>
+        <h2 class="two">hai</h2>
+        <h3 id="three">ba</h3> -->
+
+        <img width="500px" height="500px" title="Đây là hình của con Bống Long Xuyên" alt="Hình của con Bống Long Xuyên data-test="1" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/156626749_1336957559993059_4158632809470526688_o.jpg?_nc_cat=101&ccb=3&_nc_sid=dbeb18&_nc_ohc=t5mRLpCMGEIAX-jk-iR&_nc_ht=scontent-hkg4-1.xx&oh=5d4a81ce6cee68dccb1c7265c471e46b&oe=606626D9" ">
+        </body>
+       
+</html>
